@@ -4,9 +4,11 @@ public class DAY2 {
     public static void main(String[] args) {
     int a = 50;
     int b = 20;
-        if (a<b){
+        if (a<b)
+        {
             System.out.println("A is greater than B");
-        } else
+        }
+        else
         {
             System.out.println("B is Lesser than A");
         }
