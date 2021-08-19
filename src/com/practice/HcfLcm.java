@@ -27,8 +27,5 @@ public class HcfLcm {
 
         System.out.println("HCF of input numbers: "+hcf);
         System.out.println("LCM of input numbers: "+lcm);
-
-
-//
     }
 }
