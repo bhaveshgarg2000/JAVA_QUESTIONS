@@ -1,6 +1,5 @@
 package com.BHAVESH;
-
-public class Namaste {
+public class Namaste{
     public static void main(String[] args) {
         // namaste in hindi
         System.out.println("नमस्ते भारत");
@@ -14,6 +13,5 @@ public class Namaste {
         System.out.println("Grüße");
         // namaste in japanese
         System.out.println("ご挨拶");
-
     }
 }
