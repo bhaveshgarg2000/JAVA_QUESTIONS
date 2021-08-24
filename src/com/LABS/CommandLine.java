@@ -1,11 +1,12 @@
 package com.LABS;
 
-import org.jetbrains.annotations.NotNull;
+import java.util.Scanner;
 
 public class CommandLine {
     public static void main(String[] args) {
-        System.out.println(args[0]);
-        System.out.println(args[1]);
-        System.out.println(args[2]);
+        double x = Double.parseDouble(args[0]);
+        double y = Double.parseDouble(args[1]);
+
+        System.out.println("The product of two variables : " +(x*y));
     }
 }
