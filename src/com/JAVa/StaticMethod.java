@@ -2,7 +2,7 @@ package com.JAVa;
 
 
  class student {
-     int rollno;
+     int roll;
      String name;
      static String college = "MRU";
 
@@ -11,12 +11,12 @@ package com.JAVa;
      }
     //constructor intialize variables
      student(int r, String n) {
-         rollno = r;
+         roll = r;
          name = n;
      }
 
      void display() {
-         System.out.println(rollno + " " + name + " " + college);
+         System.out.println(roll + " " + name + " " + college);
      }
  }
 
