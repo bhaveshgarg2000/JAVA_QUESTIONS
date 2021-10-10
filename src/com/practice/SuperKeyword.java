@@ -9,6 +9,7 @@ class Animal{
 }
     class God extends Animal{
         God(){
+            super();
         System.out.println("God is created");
 
         }
