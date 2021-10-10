@@ -1,6 +1,7 @@
 package com.practice;
-
 import java.util.Scanner;
+
+//import java.util.Scanner;
 
 public class HcfLcm {
     public static void main(String[] args) {
