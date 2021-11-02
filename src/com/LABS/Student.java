@@ -1,17 +1,17 @@
 package com.LABS;
 
-public class Student {
+class Atudent {
     int rollno;
     String name;
     float per;
     static int count = 0;
-    Student(){
+    Atudent(){
         rollno = 0;
         name = null;
         per = 0.f;
 
     }
-    Student(int rollno,String name ,float per){
+    Atudent(int rollno,String name ,float per){
         this.rollno = rollno;
         this.name = name;
         this.per= per;
@@ -34,12 +34,12 @@ public void display(){
 }
 
     public static void main(String[] args) {
-        Student s1 = new Student(1,"Kunal",90.99f);
-    Student.count();
-        Student s2 = new Student(2,"Bhavuk",99.90f);
-Student.count();
-        Student s3 = new Student(3,"Bhavesh",99.99f);
-        Student.count();
+        Atudent s1 = new Atudent(1,"Daksh",90.99f);
+    Atudent.count();
+        Atudent s2 = new Atudent(2,"Yash",99.90f);
+Atudent.count();
+        Atudent s3 = new Atudent(3,"Soham",99.99f);
+        Atudent.count();
         s1.display();
         s2.display();
         s3.display();
