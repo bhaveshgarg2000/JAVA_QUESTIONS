@@ -3,9 +3,9 @@ package com.practice;
 public class FinallyBlock {
     public static void main(String[] args) {
         try{
-            int data = 25/5;
+            int data = 25/0;
             System.out.println(data);
-        }catch (ArrayIndexOutOfBoundsException e){
+        }catch (ArithmeticException e){
             System.out.println(e);
         }
         finally {
