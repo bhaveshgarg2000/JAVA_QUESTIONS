@@ -2,7 +2,7 @@ package com.practice;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
-public class CheckedEXception {
+class CheckedEXception {
     public static void main(String[] args) {
         PrintWriter pw;
         try{
