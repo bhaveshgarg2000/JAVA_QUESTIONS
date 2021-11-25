@@ -5,13 +5,13 @@ public class FinallyBlock {
         try{
             int data = 25/0;
             System.out.println(data);
-        }catch (ArithmeticException e){
+        }catch (Exception e){
             System.out.println(e);
         }
         finally {
             System.out.println("Finally Block is always Executed");
         }
-        System.out.println("Rest of the code Excuted");
+        System.out.println("Rest of the code Executed");
 
     }
 }
